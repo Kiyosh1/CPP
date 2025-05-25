@@ -6,5 +6,10 @@ int main(){
     std::cout << "Yep." << '\n';
     std::cout << "And that's all, folks! \n";
 
+    std::cout << "Enter a number: ";
+    int y {};
+    std::cin >> y;
+    std::cout <<"You entered " << y <<'\n';
+
     return 0;
 }
