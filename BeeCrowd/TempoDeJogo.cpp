@@ -6,15 +6,15 @@ int main(){
     std::cin >> inicio;
     std::cin >> fim;
 
-    if(inicio < fim){
+    if(inicio < fim)
         hora = fim - inicio;
-    }
-    else if(fim < inicio){
+    
+    else if(fim < inicio)
         hora = 24 - inicio + fim;
-    }
-    else{
+    
+    else
         hora = 24;
-    }
+    
     std::cout << "O JOGO DUROU " << hora << " HORA(S)" << '\n';
 
     return 0;
